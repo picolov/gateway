@@ -119,7 +119,7 @@ jhipster:
         allowed-origins: "*"
         allowed-methods: "*"
         allowed-headers: "*"
-        exposed-headers: "Authorization"
+        exposed-headers: "Authorization, Content-Disposition"
         allow-credentials: true
         max-age: 1800
     security:
